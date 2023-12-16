@@ -147,7 +147,7 @@ export default function FirstCard() {
                   tempor incididunt ut labore et dolore magna aliqua.
                 </a>
               </details>
-              <button className='click'>Show</button>
+              <button className='click'>Add to Cart</button>
             </div>
 
           </div>
