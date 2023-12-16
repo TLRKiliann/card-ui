@@ -1,6 +1,7 @@
 import FirstCard from './components/FirstCard';
 import SecondCard from './components/SecondCard';
 import ThirdCard from './components/ThirdCard';
+import FourthCards from './components/FourthCards';
 import './App.css'
 
 function App() {
@@ -20,6 +21,12 @@ function App() {
 
       <div className='bloc-comp'>
         <ThirdCard />
+      </div>
+
+      <hr />
+
+      <div className='bloc-comp'>
+        <FourthCards />
       </div>
 
     </>
