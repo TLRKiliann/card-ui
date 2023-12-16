@@ -139,10 +139,15 @@ export default function FirstCard() {
             </div>
 
             <div className='underground'>
-              <span>
-                Element
-              </span>
-              <button className='click'>C</button>
+              <details>
+                <summary>
+                  Element
+                </summary>
+                <a href=""> 
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </a>
+              </details>
+              <button className='click'>Show</button>
             </div>
 
           </div>
