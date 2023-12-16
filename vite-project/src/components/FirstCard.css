@@ -1,0 +1,187 @@
+.wraper-card {
+    width: 520px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px #777;
+  }
+  
+  .container-card {
+    background: #000;
+    box-shadow: inset 0px 0px 10px #242424;
+    border-radius: 12px;
+  }
+  
+  .inner-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* img */
+  .div-imgOne {
+    border-radius: 7px 0px 0px 0px;
+  }
+  
+  .imgOne {
+    border-radius: 7px 0px 0px 0px;  
+  }
+  
+  .div-skills {
+    width: 400px;
+  }
+  
+  .title-h3 {
+    display: flex;
+    height: 20%;
+  }
+  
+  h3 {
+    margin: auto;
+    color: lightgray;
+  }
+  
+  .boxOne {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .containerOne {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+  }
+  
+  h4 {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    font-size: 12px;
+    border: 1px solid black;
+  }
+  
+  /* square */
+  .div-square {
+    width: 65%;
+    margin-right: 20px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .square:first-child {
+    width: 10px;
+    height: 3px;
+    margin: auto;
+    background-color: aqua;
+    border: 1px solid slategray;
+  }
+  
+  .square:nth-child(n + 1) {
+    width: 10px;
+    height: 3px;
+    margin: auto;
+    background-color: aqua;
+    border: 1px solid slategray;
+  }
+  
+  .square-two {
+    width: 10px;
+    height: 3px;
+    margin: auto;
+    background-color: slategray;
+    border: 1px solid slategray;
+  }
+  
+  .div-bottom {
+    display: flex;
+    align-items: center;
+    color: lightgray;
+    height: 60px;
+    border-bottom: 1px solid rgba(112, 128, 144, 0.6);
+  }
+  
+  .div-bottom-first {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+  
+  .div-bottom-first button {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    background: dodgerblue;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    transition: ease 0.3s;
+  }
+  
+  .div-bottom-first button:hover {
+    background: steelblue;
+    color: lightblue;
+  }
+  
+  .div-bottom-first button:active {
+    background: steelblue;
+    box-shadow: inset 0px 0px 7px #000;
+    color: lightgray;
+  }
+  
+  .div-bottom-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+  
+    border-top: 1px solid rgba(112, 128, 144, 0.6);
+    padding: 10px 0px;
+  }
+  
+  .div-bottom-second p {
+    width: auto;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px;
+    margin-right: 20px;
+  }
+  
+  .sub-div-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .underground {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    color: lightgray;
+  }
+  
+  .underground span {
+    margin: 5px 10px;
+    color: slategray;
+  }
+  
+  .underground button {
+    margin: 5px 10px;
+  }
+  
+  .click {
+    padding: 5px 8px;
+    border: 1px solid slategrey;
+    border-radius: 50% 50%;
+    background: #000;
+    color: slategray;
+  }
